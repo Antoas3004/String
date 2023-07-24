@@ -1,0 +1,24 @@
+public class Creation_of_String {
+
+	public static void main(String[] args) {
+
+		// 1.Creating string by java String literals
+
+		String s1 = "java";
+
+		// 2.Converting char array to String
+
+		char ch[] = { 's', 't', 'r', 'i', 'n', 'g' };
+
+		String s2 = new String(ch);
+
+		// Creating java Stringby new Keyword
+
+		String s3 = new String("example");
+
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+
+	}
+}
