@@ -1,0 +1,19 @@
+public class Search_char_in_String {
+
+	public static void main(String[] args) {
+
+		String s = "java";
+
+		boolean flag = false;
+
+		char Search = 'a';
+		char Search1 = 'e';
+
+		for (int i = 0; i < s.length(); i++) {
+			if (s.charAt(i) == Search || s.charAt(i) == Search1) {
+				flag = true;
+			}
+		}
+		System.out.println(flag);
+	}
+}
