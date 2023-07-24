@@ -1,0 +1,11 @@
+public class No_Of_charachter {
+
+	public static void main(String args[]) {
+		String s = "Write a Java program to find the duplicate words and their number of occurrences in a string";
+		
+		int length=s.length();
+		
+		System.out.println("No_Of_charachter : "+ length);
+	}
+
+}
