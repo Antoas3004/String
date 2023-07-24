@@ -1,0 +1,72 @@
+public class Predefined_method {
+
+	public static void main(String[] args) {
+		String s = "predefined menthod";
+
+		// in this programme we study about some pre defined method
+		// find String length (String name.Length())
+		System.out.println(s.length());
+
+		// charAt method returns a char value at given index
+		System.out.println(s.charAt(5));
+
+		// index method returns index value
+		// if string have multiple char value it returns frist value
+		System.out.println(s.indexOf('e'));
+
+		// last index is used to if string have multiple char values
+		// it returns last char value index
+		System.out.println(s.lastIndexOf('e'));
+
+		// cancat method combine specified string to another String
+		System.out.println(s.concat(" example"));
+
+		// SubString method is work based on index
+		// if we put any index number the sub string method returns after
+		// that index number char values
+		System.out.println(s.substring(4));
+		System.out.println(s.substring(9));
+
+		// replace method replace a specified char value to new char value
+		System.out.println(s.replace('e', 'a'));
+
+		// replace all method replacd all char value
+		System.out.println(s.replaceAll("d", "a"));
+
+		// to uppercase this method change a String value lowercase to upper case
+		System.out.println(s.toUpperCase());
+
+		// to lowercase this method change a String value uppercase to lower case
+		System.out.println(s.toLowerCase());
+
+		// trim mrthod remove sapace front and back of sentance
+		System.out.println(s.trim());
+
+		// contains method search a given char value is present in String
+		// if it present the char value then output is true(or) false
+		System.out.println(s.contains("e"));
+
+		// empty method is checks the string is empty of not
+		// it returns true or false
+		System.out.println(s.isEmpty());
+
+		// Start with method is start with given value or not
+		System.out.println(s.startsWith("p"));
+
+		// endswith method find the string is end with that char value
+		System.out.println(s.endsWith("a"));
+
+		// replace frist is method to replce frist char value
+		System.out.println(s.replaceFirst("p", "a"));
+
+		// Equals method compare two Strings they both are equal or not
+		String s1 = "predefined menthod";
+		System.out.println(s.equals(s1));
+
+		// this method compare two strings same r not
+		// and ignore lower and upper case
+		String s2 = "PreDefined Menthod";
+		System.out.println(s.equalsIgnoreCase(s2));
+
+	}
+}
