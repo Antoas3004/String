@@ -4,6 +4,10 @@ public class Search_char_in_String {
 
 		String s = "java";
 
+		// pre defined method
+		System.out.println(s.contains("a"));
+
+		// using for loop
 		boolean flag = false;
 
 		char Search = 'a';
