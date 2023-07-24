@@ -1,0 +1,21 @@
+public class Basic_understading {
+
+	public static void main(String[] args) {
+
+		String Anto = "java";
+		// Syntax of string
+		// Generally String is group of character
+		// java String is immutable which means it cannot be changed
+		System.out.println(Anto);
+
+		// print all character in a given String
+			System.out.println("print all element in String : ");
+		for (int i = 0; i < Anto.length(); i++) {
+			System.out.println(Anto.charAt(i));
+		}
+
+		// how many element are present in String
+
+		System.out.println("element present in String = " + Anto.length());
+	}
+}
