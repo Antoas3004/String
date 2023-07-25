@@ -1,0 +1,16 @@
+public class Remove_Space {
+
+	public static void main(String[] args) {
+		// remove sapce from string
+		String s = "In Java, String concatenation forms a new String that is the combination of multiple strings";
+		char c[] = new char[s.length()];
+		for (int i = 0; i < s.length(); i++) {
+			c[i] = s.charAt(i);
+		}
+		for (char a : c) {
+			if (a != ' ') {
+				System.out.print(a);
+			}
+		}
+	}
+}
