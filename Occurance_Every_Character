@@ -1,0 +1,24 @@
+public class Occurance_Every_Character {
+
+	public static void main(String[] args) {
+		String s = "Java J2EE Java JSP J2EE";
+
+		char c[] = s.toCharArray();
+		for (int i = 0; i < c.length; i++) {
+			int count = 0;
+			char chara = ' ';
+			for (int j = i + 1; j < c.length; j++) {
+				if (c[i] == c[j] && (c[i] != 32)) {
+					c[j] = ' ';
+					count++;
+					chara = c[i];
+				}
+				if (j == c.length - 1 && c[i] == chara && c[i] != 32) {
+					System.out.print(c[i] + "=");
+					System.out.print(count + 1);
+					System.out.println();
+				}
+			}
+		}
+	}
+}
