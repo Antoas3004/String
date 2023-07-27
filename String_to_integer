@@ -1,0 +1,23 @@
+public class String_to_integer {
+
+	public static void main(String[] args) {
+		
+		//String to integer
+		
+		String s="1234";
+		 int num=Integer.parseInt(s);
+		 //String
+		 System.out.println(s+s);
+		 //integer
+		 System.out.println(num+num);
+		 
+		 //integer to String
+		 
+		 int number=1234;
+		  String s1= Integer.toString(number);
+		  //integer
+		  System.out.println(number);
+		  //String
+		  System.out.println(s1+s1);
+	}
+}
