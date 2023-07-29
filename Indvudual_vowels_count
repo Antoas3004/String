@@ -1,0 +1,33 @@
+public class Indvudual_vowels_count {
+
+	public static void main(String[] args) {
+		String s = "Write a Java program to find the duplicate words and their number of occurrences in a string";
+		int a = 0;
+		int e = 0;
+		int i = 0;
+		int o = 0;
+		int u = 0;
+		for (int x = 0; x < s.length(); x++) {
+			if (s.charAt(x) == 'a') {
+				a++;
+			}
+			if (s.charAt(x) == 'o') {
+				o++;
+			}
+			if (s.charAt(x) == 'u') {
+				u++;
+			}
+			if (s.charAt(x) == 'e') {
+				e++;
+			}
+			if (s.charAt(x) == 'i') {
+				i++;
+			}
+		}
+		System.out.println("vowel a : " + a);
+		System.out.println("vowel e : " + e);
+		System.out.println("vowel i : " + i);
+		System.out.println("vowel o : " + o);
+		System.out.println("vowel u : " + u);
+	}
+}
