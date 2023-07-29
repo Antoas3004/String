@@ -1,0 +1,14 @@
+public class Remove_White_Space {
+
+	public static void main(String[] args) {
+		String s = " Write a  Java   program   to     remove";
+	
+
+		String str[] = s.split(" ");
+		
+		for(String st:str)
+		System.out.print(st);
+
+	}
+
+}
